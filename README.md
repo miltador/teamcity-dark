@@ -1,6 +1,8 @@
 # teamcity-dark
 Stylish Dark Theme for Teamcity
 
+![preview](https://i.imgur.com/HlstmnM.png)
+
 Hacked together dark theme for JetBrains' Teamcity. 
 
 Still a few areas that arent themed but Teamcity should be fully usable.

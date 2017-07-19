@@ -3,7 +3,6 @@
  */
 
 * {
-    border-color: #222 !important;
     text-shadow: none !important;
     box-shadow: none !important;
     color: #FFF !important;
@@ -28,17 +27,39 @@ body {
 .projectHeaderTable {
     background-color: #222 !important;
 }
-tr {
+.overviewTypeTable tr:nth-child(1) {
     background-color: #222 !important;
 }
 .lastFinished {
-    background-color: #191919 !important;
+    background-color: #222 !important;
 }
 .btn {
     background: #9ea3a9;
     color: #FFF;
 }
-.overview-page .branchContainer .ufd input {
+.action-bar {
+    background-color: #444 !important;
+}
+.build .projectHeader {
+    background-color: #222 !important;
+    border: 1px solid #444;
+}
+.menuList {
+    background-color: #222 !important;
+}
+#changesPopup .userChangesHeader,
+#changesPopup .changePopupHeader,
+#changesPopup .changesPopupFooter,
+.summaryContainer .header {
+    background: #9ea3a9;
+}
+#changesPopup .userChangesHeader.highlightChanges {
+    background-color: #cc9966;
+}
+.overview-page .branchContainer .ufd,
+#ufd-container ul > li.option,
+#ufd-container ul > li.optgroup,
+#ufd-container ul > li.option.nogroup {
     background: #444;
     color: #FFF;
 }
@@ -142,10 +163,31 @@ span.pc.highlightChanges {
     background-color: #cc9966
 }
 .popupDiv,
-.modalDialogBody{
+.modalDialogBody {
     background-color: #333
 }
-
-#topWrapper, .clearfix, .groupingTitle, .groupingTitle td, .runnerFormTable tr.groupingTitle td, form {
+#topWrapper,
+.clearfix,
+.groupingTitle,
+.groupingTitle td,
+.runnerFormTable tr.groupingTitle td,
+form {
     background-color: #222;
+}
+table.dark thead,
+table.dark thead th {
+    background-color: #222 !important;
+}
+table.agents.borderBottom td {
+    background-color: #222 !important;
+}
+tr.selectedTreeNode > td,
+tr.selectedTreeNode .expanded_view_container {
+    background-color: inherit;
+}
+.mug {
+    background-color: transparent;
+}
+.tabCounter {
+    background-color: inherit !important;
 }

@@ -191,3 +191,15 @@ tr.selectedTreeNode .expanded_view_container {
 .tabCounter {
     background-color: inherit !important;
 }
+.expandedChange {
+	background-color: #222 !important;
+}
+#restProjectsPopup, #fastBreadcrumbsPopup {
+	background-color: #222;
+}
+.projects-list-0 iron-list.projects-list {
+	background-color: #444;
+}
+.tree-node-0:hover {
+	background-color: #666;
+}

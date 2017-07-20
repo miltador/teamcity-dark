@@ -1,7 +1,3 @@
-/*
- * "URLs on the domain" : <teamcity url>
- */
-
 * {
     text-shadow: none !important;
     box-shadow: none !important;
@@ -9,17 +5,8 @@
 }
 body {
     background-color: #191919 !important;
-    background-image:
-    /*[[bg-choice]]*/
-    
-    url() !important;
     background-clip: border-box !important;
     background-origin: padding-box !important;
-    background-attachment:
-    /*[[bg-attachment]]*/
-    
-    fixed !important;
-    /*[[bg-options]]*/
 }
 .build .projectHeader {
     background-color: #222 !important;
@@ -192,14 +179,24 @@ tr.selectedTreeNode .expanded_view_container {
     background-color: inherit !important;
 }
 .expandedChange {
-	background-color: #222 !important;
+    background-color: #222 !important;
 }
-#restProjectsPopup, #fastBreadcrumbsPopup {
-	background-color: #222;
+#restProjectsPopup,
+#fastBreadcrumbsPopup {
+    background-color: #222;
 }
 .projects-list-0 iron-list.projects-list {
-	background-color: #444;
+    background-color: #444;
 }
 .tree-node-0:hover {
-	background-color: #666;
+    background-color: #666;
+}
+.log.console_mod .status_warn {
+    color: #FDCA40 !important;
+}
+.log .status_warn {
+    color: #C47003 !important;
+}
+.log.console_mod .status_err {
+    color: #D72638;
 }

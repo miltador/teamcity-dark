@@ -200,3 +200,9 @@ tr.selectedTreeNode .expanded_view_container {
 .log.console_mod .status_err {
     color: #D72638;
 }
+.tableCaption table.runTable td.pendingMessage > span, span.pc.highlightChanges {
+	border-radius: 4px;
+}
+.pc__label {
+	margin: 5px;
+}

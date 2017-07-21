@@ -200,9 +200,28 @@ tr.selectedTreeNode .expanded_view_container {
 .log.console_mod .status_err {
     color: #D72638;
 }
-.tableCaption table.runTable td.pendingMessage > span, span.pc.highlightChanges {
-	border-radius: 4px;
+.ansi.red {
+    color: rgb(255, 0, 0) !important;
+}
+.ansi.green {
+    color: rgb(0, 205, 0) !important;
+}
+.ansi.yellow {
+    color: rgb(205, 205, 0) !important
+}
+.ansi.blue {
+    color: rgb(0, 0, 238) !important;
+}
+.ansi.magenta {
+    color: rgb(205, 0, 205) !important;
+}
+.ansi.cyan {
+    color: rgb(0, 205, 205) !important;
+}
+.tableCaption table.runTable td.pendingMessage > span,
+span.pc.highlightChanges {
+    border-radius: 4px;
 }
 .pc__label {
-	margin: 5px;
+    margin: 5px;
 }

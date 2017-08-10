@@ -1,12 +1,15 @@
-* {
-    text-shadow: none !important;
-    box-shadow: none !important;
-    color: #ded9d9 !important;
-}
 body {
     background-color: #191919 !important;
     background-clip: border-box !important;
     background-origin: padding-box !important;
+}
+body,
+a,
+input,
+span {
+    color: #ded9d9 !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
 }
 .build .projectHeader {
     background-color: #222 !important;
@@ -224,4 +227,8 @@ span.pc.highlightChanges {
 }
 .pc__label {
     margin: 5px;
+}
+#diffView,
+#panels {
+    color: #000 !important;
 }
